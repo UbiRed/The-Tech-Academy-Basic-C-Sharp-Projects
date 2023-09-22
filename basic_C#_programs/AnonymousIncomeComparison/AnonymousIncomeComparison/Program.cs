@@ -21,7 +21,7 @@ class Program
         Console.Write("Hours worked per week? ");
         double hoursWorkedPerWeek2 = double.Parse(Console.ReadLine()); // Get hours worked per week
 
-        // Calculate annual salaries
+        // Calculate annual salaries (Multiply weekly earnings by 52)
         double annualSalary1 = hourlyRate1 * hoursWorkedPerWeek1 * 52;
         double annualSalary2 = hourlyRate2 * hoursWorkedPerWeek2 * 52;
 
