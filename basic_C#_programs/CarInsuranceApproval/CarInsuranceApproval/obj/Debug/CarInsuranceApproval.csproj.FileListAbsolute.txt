@@ -1,0 +1,7 @@
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\CarInsuranceApproval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.exe.config
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\CarInsuranceApproval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.exe
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\CarInsuranceApproval\CarInsuranceApproval\bin\Debug\CarInsuranceApproval.pdb
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.csproj.AssemblyReference.cache
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.csproj.CoreCompileInputs.cache
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.exe
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\CarInsuranceApproval\CarInsuranceApproval\obj\Debug\CarInsuranceApproval.pdb
