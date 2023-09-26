@@ -28,12 +28,28 @@ class Program
             Console.Write("Please enter the package length: ");
             double length = double.Parse(Console.ReadLine());
 
-            // Calculate the product of dimensions and multiply by weight, then divide by 100 to get the quote
+            // Calculate the product of dimensions and multiply by weight, then divide by 100
             double dimensionsTotal = width * height * length;
-            double quote = (dimensionsTotal * weight) / 100;
 
-            // Display the quote to the user
-            Console.WriteLine("Your estimated total for shipping this package is: $" + quote.ToString("F2"));
+            // Check if dimensions total is greater than 50 and display an error message
+            if (dimensionsTotal > 50)
+            {
+                Console.WriteLine("Package is too big to ship via Package Express.");
+            }
+            else
+            {
+                // Calculate the shipping quote
+                double quote = (dimensionsTotal * weight) / 100;
+
+                // Display the quote to the user as a dollar amount
+                Console.WriteLine("Your estimated total for shipping this package is: $" + quote.ToString("F2"));
+
+                // Check if the quote is less than $100 and display an additional message
+                if (quote < 100)
+                {
+                    Console.WriteLine("Shipping cost is less than $100. What a deal!");
+                }
+            }
         }
 
         // Display thank you message
