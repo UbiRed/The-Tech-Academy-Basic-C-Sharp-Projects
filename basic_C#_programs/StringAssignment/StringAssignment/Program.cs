@@ -36,7 +36,7 @@ class Program
         // Append sentences to the StringBuilder, one at a time
         paragraph.Append("This is the first sentence. ");
         paragraph.Append("Here is the second sentence. ");
-        paragraph.Append("And this is the third sentence. ");
+        paragraph.Append("This is the third sentence. ");
 
         // Convert the StringBuilder to a string
         string finalParagraph = paragraph.ToString();
