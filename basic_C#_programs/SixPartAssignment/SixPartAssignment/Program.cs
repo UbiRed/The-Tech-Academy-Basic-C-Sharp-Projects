@@ -126,11 +126,11 @@ class Program
 
         Console.WriteLine("-------------------------------");
 
-        // Create a list of Lamborghini car models
+        // Create a list of Lamborghini models
         List<string> lamborghiniModels = new List<string>
         { "Huracan", "Aventador", "Urus", "Huracan", "Gallardo", "Aventador" };
 
-        // Create a dictionary to keep track of whether a model is unique or a duplicate
+        // Create a dict to keep track of whether a model is unique or a duplicate
         Dictionary<string, string> modelStatus = new Dictionary<string, string>();
 
         // Loop through the list using foreach
