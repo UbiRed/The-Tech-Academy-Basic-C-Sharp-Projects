@@ -1,0 +1,7 @@
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\MethodAssignmentThree\MethodAssignmentThree\bin\Debug\MethodAssignmentThree.exe.config
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\MethodAssignmentThree\MethodAssignmentThree\bin\Debug\MethodAssignmentThree.exe
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\MethodAssignmentThree\MethodAssignmentThree\bin\Debug\MethodAssignmentThree.pdb
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\MethodAssignmentThree\MethodAssignmentThree\obj\Debug\MethodAssignmentThree.csproj.AssemblyReference.cache
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\MethodAssignmentThree\MethodAssignmentThree\obj\Debug\MethodAssignmentThree.csproj.CoreCompileInputs.cache
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\MethodAssignmentThree\MethodAssignmentThree\obj\Debug\MethodAssignmentThree.exe
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\MethodAssignmentThree\MethodAssignmentThree\obj\Debug\MethodAssignmentThree.pdb
