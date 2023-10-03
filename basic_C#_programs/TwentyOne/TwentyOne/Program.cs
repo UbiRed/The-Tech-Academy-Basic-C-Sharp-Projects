@@ -22,7 +22,7 @@ namespace TwentyOne
             {
                 Console.WriteLine("\n\n");
                 Player player = new Player(playerName, bank);
-                Game game = new TwentyOneGame(player);
+                Game game = new TwentyOneGame();
                 game += player;
                 player.isActivePlaying = true;
 

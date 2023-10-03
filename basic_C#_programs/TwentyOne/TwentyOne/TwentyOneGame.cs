@@ -9,12 +9,6 @@ namespace TwentyOne
     public class TwentyOneGame : Game, IWalkAway
     {
         
-        public TwentyOneGame(Player player)
-        {
-            Players = new List<Player>();
-            Players.Add(player);
-        }
-
         public TwentyOneDealer Dealer { get; set; }
 
         public override void Play()
@@ -28,13 +22,12 @@ namespace TwentyOne
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
+            Dealer.Deck.Shuffle();
 
-
+            Console.Write("Your turn to place your bet: ");
 
             foreach (Player player in Players )
-            {
-                Console.Write("{0}, your current balance is {1}. Enter your bet: ", player.Name, player.Balance);
-
+            {               
                 int bet = Convert.ToInt32(Console.ReadLine());
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet) 
