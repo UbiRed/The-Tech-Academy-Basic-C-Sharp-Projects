@@ -4,14 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
     internal class Program
     {
+        private static char card;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Ubi Hotel and Casino! \n--------------------------- \nWhat is your name? ");
+            const string casinoName = "Ubi Hotel and Casino";
+
+            
+
+            Console.WriteLine("Welcome to the {0}! \n--------------------------- \nWhat is your name? ",casinoName);
             string playerName = Console.ReadLine();
 
             Console.WriteLine("---------------------------\nHow much money are you gambling with today?");
@@ -23,6 +31,12 @@ namespace TwentyOne
             {
                 Console.WriteLine("\n\n");
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\TwentyOne\Logs\log.txt", true))
+                {
+                    file.WriteLine(DateTime.Now);
+                    file.WriteLine(card);
+                }
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivePlaying = true;

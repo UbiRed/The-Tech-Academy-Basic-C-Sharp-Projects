@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public class Deck
     {
@@ -17,7 +17,7 @@ namespace TwentyOne
                 for (int j = 0; j < 4; j++) 
                 {
                     Card card = new Card();
-                    card.Face = (Face)i;
+                    card.Face = (Face)i; //casting int to data type: Face
                     card.Suit = (Suit)j;
                     Cards.Add(card);
                 }

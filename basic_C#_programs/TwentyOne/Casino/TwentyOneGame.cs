@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+
+namespace Casino.TwentyOne
 {
-    public class TwentyOneGame : Game, IWalkAway
+    public class TwentyOneGame : Game, IWalkAway //inheritance
     {
         
         public TwentyOneDealer Dealer { get; set; }
 
-        public override void Play()
+        public override void Play() //use override keyword to implement method
         {
             Dealer = new TwentyOneDealer();
             foreach (Player player in Players)
@@ -26,11 +27,18 @@ namespace TwentyOne
 
             Console.Write("Your turn to place your bet: ");
 
-            foreach (Player player in Players )
-            {               
-                int bet = Convert.ToInt32(Console.ReadLine());
+            foreach (Player player in Players)
+            {
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Place your bets!");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+                }
                 bool successfullyBet = player.Bet(bet);
-                if (!successfullyBet) 
+                if (!successfullyBet)
                 {
                     return;
                 }
@@ -90,6 +98,7 @@ namespace TwentyOne
                     if (answer == "stay" || answer == "Stay" || answer == "S" || answer == "s")
                     {
                         player.Stay = true;
+                        break;
                     }
 
                     else if (answer == "hit" || answer == "Hit" || answer == "H" || answer == "h")
@@ -109,11 +118,13 @@ namespace TwentyOne
                         if (answer == "yes" || answer == "yeah" || answer == "ya" || answer == "y" || answer == "true" || answer == "si")
                         {
                             player.isActivePlaying = true;
+                            return;
                         }
 
                         else
                         {
                             player.isActivePlaying = false;
+                            return;
                         }
                     }
                 }
