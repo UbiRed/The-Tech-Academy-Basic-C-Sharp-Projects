@@ -31,9 +31,6 @@ namespace TwentyOne
                 if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals!");
             }
 
-            Console.WriteLine("---------------------------\nHow much money are you gambling with today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine("---------------------------\nHello, {0}! Would you like to play a game of Blackjack?", playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" ||  answer == "yeah" || answer == "ya" || answer == "y" || answer == "true" || answer == "si") 
@@ -52,7 +49,22 @@ namespace TwentyOne
 
                 while (player.isActivePlaying && player.Balance > 0) 
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (FraudException)
+                    {
+                        Console.WriteLine("Security! Kick this cheater out of the casino!");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("An error has occured. Please contact your Systems Admin.");
+                        Console.ReadLine();
+                        return;
+                    }
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
