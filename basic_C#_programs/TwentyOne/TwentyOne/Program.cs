@@ -22,6 +22,15 @@ namespace TwentyOne
             Console.WriteLine("Welcome to the {0}! \n--------------------------- \nWhat is your name? ",casinoName);
             string playerName = Console.ReadLine();
 
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("How much money are you gambling with today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals!");
+            }
+
             Console.WriteLine("---------------------------\nHow much money are you gambling with today?");
             int bank = Convert.ToInt32(Console.ReadLine());
 

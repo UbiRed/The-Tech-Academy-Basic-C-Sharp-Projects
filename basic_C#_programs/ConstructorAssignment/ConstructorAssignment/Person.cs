@@ -5,18 +5,18 @@ class Person
     public string FirstName { get; set; }
     public string LastName { get; set; }
 
-    // Constructor 1: Initialize properties with provided names
-    public Person(string firstName, string lastName)
+    // Constructor 1: Initialize properties with provided first name
+    public Person(string firstName)
     {
         FirstName = firstName;
-        LastName = lastName;
+        LastName = "Doe";
     }
 
     // Constructor 2: Initialize properties with default values
     public Person()
     {
-        FirstName = "";
-        LastName = "";
+        FirstName = "John";
+        LastName = "Doe";
     }
 
     // Method getting full name of person

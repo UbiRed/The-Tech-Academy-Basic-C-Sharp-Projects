@@ -4,16 +4,16 @@ namespace ConstructorAssignment
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // Create a constant var for pi
+            // Create a constant variable for pi
             const double Pi = 3.14159;
 
-            // Create var using the "var" keyword
+            // Create a variable using the "var" keyword
             var greeting = "Hello, World!";
 
-            // Chain two constructors to create a person object
-            Person person = new Person("Keaton", "Kupillas");
+            // Create a person object using the overloaded constructor
+            Person person = new Person("John");
 
             // Display constant, variable, and person's full name
             Console.WriteLine("Value of Pi: " + Pi);
@@ -22,5 +22,5 @@ namespace ConstructorAssignment
 
             Console.ReadLine();
         }
-    }    
+    }
 }

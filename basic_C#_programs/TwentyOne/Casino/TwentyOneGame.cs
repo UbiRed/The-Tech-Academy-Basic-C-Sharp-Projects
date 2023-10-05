@@ -25,15 +25,13 @@ namespace Casino.TwentyOne
             Dealer.Deck = new Deck();
             Dealer.Deck.Shuffle();
 
-            Console.Write("Your turn to place your bet: ");
-
             foreach (Player player in Players)
             {
                 bool validAnswer = false;
                 int bet = 0;
                 while (!validAnswer)
                 {
-                    Console.WriteLine("Place your bets!");
+                    Console.WriteLine("Your turn to place your bet: ");
                     validAnswer = int.TryParse(Console.ReadLine(), out bet);
                     if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
                 }
