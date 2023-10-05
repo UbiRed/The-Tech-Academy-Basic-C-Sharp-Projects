@@ -6,20 +6,11 @@ namespace ConstructorAssignment
     {
         static void Main()
         {
-            // Create a constant variable for pi
-            const double Pi = 3.14159;
+            Class1 obj1 = new Class1(42);
+            obj1.DisplayValues();
 
-            // Create a variable using the "var" keyword
-            var greeting = "Hello, World!";
-
-            // Create a person object using the overloaded constructor
-            Person person = new Person("John");
-
-            // Display constant, variable, and person's full name
-            Console.WriteLine("Value of Pi: " + Pi);
-            Console.WriteLine("Greeting: " + greeting);
-            Console.WriteLine("Full Name: " + person.GetFullName());
-
+            Class1 obj2 = new Class1(10, "Constructor successful");
+            obj2.DisplayValues();
             Console.ReadLine();
         }
     }

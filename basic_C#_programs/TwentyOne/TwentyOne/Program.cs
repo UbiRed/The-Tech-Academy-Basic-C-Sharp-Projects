@@ -75,5 +75,9 @@ namespace TwentyOne
 
             Console.ReadLine();
         }
+        private static void UpdateDbWithException(Exception ex)
+        {
+            string connectiongString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=TwentyOneGame;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
+        }
     }
 }
