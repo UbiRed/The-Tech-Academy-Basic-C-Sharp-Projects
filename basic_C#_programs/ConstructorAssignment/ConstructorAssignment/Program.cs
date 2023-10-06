@@ -6,6 +6,14 @@ namespace ConstructorAssignment
     {
         static void Main()
         {
+            // Define a constant variable
+            const double pi = 3.14159;
+
+            // Define a variable using the var keyword
+            var Name1 = "Keaton";
+
+            Console.WriteLine(Name1 + " " + pi);
+
             // base constructor
             Class1 obj1 = new Class1(10, "Hello");
             Console.WriteLine($"Value1: {obj1.value1}, Value2: {obj1.value2}");
