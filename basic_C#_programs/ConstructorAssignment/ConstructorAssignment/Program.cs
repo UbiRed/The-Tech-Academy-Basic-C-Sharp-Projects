@@ -6,11 +6,14 @@ namespace ConstructorAssignment
     {
         static void Main()
         {
-            Class1 obj1 = new Class1(42);
-            obj1.DisplayValues();
+            // Using the base constructor
+            Class1 obj1 = new Class1(10, "Hello");
+            Console.WriteLine($"Value1: {obj1.value1}, Value2: {obj1.value2}");
 
-            Class1 obj2 = new Class1(10, "Constructor successful");
-            obj2.DisplayValues();
+            // Using the first chained constructor
+            Class1 obj2 = new Class1();
+            Console.WriteLine($"Value1: {obj2.value1}, Value2: {obj2.value2}");
+
             Console.ReadLine();
         }
     }

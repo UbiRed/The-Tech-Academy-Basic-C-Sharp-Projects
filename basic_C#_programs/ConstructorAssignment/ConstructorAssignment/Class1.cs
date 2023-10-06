@@ -4,25 +4,22 @@ namespace ConstructorAssignment
 {
     class Class1
     {
-        private int value1;
-        private string value2;
+        public int value1;
+        public string value2;
 
-        // Constructor with one parameter
-        public Class1(int v1)
+        // Base constructor 
+        public Class1(int v1, string v2)
         {
-            value1 = v1;
+            this.value1 = v1;
+            this.value2 = v2;
         }
-
-        // Constructor with two parameters, chaining the first constructor
-        public Class1(int v1, string v2) : this(v1)
+        // Chained Constructor 1
+        public Class1() : this(0, "")
         {
-            value2 = v2;
         }
-
-        public void DisplayValues()
+        // Chained Constructor 2
+        public Class1(int v1) : this(v1, "")
         {
-            Console.WriteLine("Value1: " + value1);
-            Console.WriteLine("Value2: " + value2);
         }
     }
 }
