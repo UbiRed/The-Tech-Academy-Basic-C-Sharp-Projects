@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Casino
 {
@@ -12,7 +13,7 @@ namespace Casino
 
         public void Deal(List<Card> Hand)
         {
-            Hand.Add(Deck.Cards.First()); //Add first item of list
+            Hand.Add(Deck.Cards.First()); // add first card
             string card = string.Format(Deck.Cards.First().ToString() + "\n");
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\TwentyOne\Logs\log.txt", true))

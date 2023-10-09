@@ -23,7 +23,6 @@ namespace Casino
         Hearts,
         Spades
     }
-
     public enum Face
     {
         Two,
