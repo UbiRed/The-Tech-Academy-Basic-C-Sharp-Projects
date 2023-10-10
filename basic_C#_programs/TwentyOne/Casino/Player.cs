@@ -6,6 +6,7 @@ namespace Casino
 {
     public class Player
     {
+        public Player() : this("Number 1", 9001) { }
         public Player(string name) : this(name, 100)
         {
         }
