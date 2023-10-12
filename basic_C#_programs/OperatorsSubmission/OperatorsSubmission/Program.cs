@@ -23,7 +23,7 @@ class Program
         bool areEqual = employee1 == employee2;
 
         // Display the result
-        Console.WriteLine("Are the employees the samew? " + areEqual);
+        Console.WriteLine("Are the employees the same? " + areEqual);
         Console.ReadLine();
     }
 }

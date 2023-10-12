@@ -7,3 +7,9 @@
 
 <h2>Instructors</h2>
 
+@{ 
+    foreach(Instructor instructor in Model)
+            {
+                <h4>@instructor.FirstName</h4>
+            }
+}
