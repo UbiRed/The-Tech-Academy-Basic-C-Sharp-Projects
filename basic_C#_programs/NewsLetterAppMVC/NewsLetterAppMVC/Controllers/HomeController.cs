@@ -13,6 +13,12 @@ namespace NewsLetterAppMVC.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult Signup(string FirstName, string LastName, string EmailAddress)
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
