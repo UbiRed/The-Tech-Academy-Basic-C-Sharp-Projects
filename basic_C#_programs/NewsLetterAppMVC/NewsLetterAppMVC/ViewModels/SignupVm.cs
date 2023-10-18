@@ -7,8 +7,8 @@ namespace NewsLetterAppMVC.ViewModels
 {
     public class SignupVm
     {
-        public int FirstName { get; set; }
-        public int LastName { get; set; }
-        public int EmailAddress { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string EmailAddress { get; set; }
     }
 }

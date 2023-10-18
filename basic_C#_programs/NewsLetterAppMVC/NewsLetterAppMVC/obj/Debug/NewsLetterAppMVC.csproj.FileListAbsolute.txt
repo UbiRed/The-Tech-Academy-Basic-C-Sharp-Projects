@@ -77,3 +77,7 @@ C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#
 C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.csproj.CopyComplete
 C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.dll
 C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\NewsLetterAppMVC\NewsLetterAppMVC\obj\Debug\NewsLetterAppMVC.pdb
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.dll
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.xml
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\NewsLetterAppMVC\NewsLetterAppMVC\bin\EntityFramework.SqlServer.xml
