@@ -179,10 +179,6 @@ namespace CarInsurance.Controllers
             }
             insuree.Quote = MonthlyTotal;
 
-            //save updated model w new quote
-            db.Entry(insuree).State = EntityState.Modified;
-            db.SaveChanges();
-
             //return quote
             return MonthlyTotal;
         }
@@ -213,6 +209,22 @@ namespace CarInsurance.Controllers
 
             return View(insuree);
         }
+
+        public ActionResult Admin()
+        {
+            // Retrieve fn, ln, ad of insured persons
+            var adminData = db.Insurees.Select(i => new AdminViewModel
+            {
+                FirstName = i.FirstName,
+                LastName = i.LastName,
+                EmailAddress = i.EmailAddress,
+                Quote = i.Quote
+            }).ToList();
+
+            return View(adminData);
+        }
+
+
 
     }
 }
