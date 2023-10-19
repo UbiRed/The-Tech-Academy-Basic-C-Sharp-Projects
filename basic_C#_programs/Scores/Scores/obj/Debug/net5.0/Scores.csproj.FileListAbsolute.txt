@@ -1,0 +1,16 @@
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\bin\Debug\net5.0\Scores.exe
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\bin\Debug\net5.0\Scores.deps.json
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\bin\Debug\net5.0\Scores.runtimeconfig.json
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\bin\Debug\net5.0\Scores.runtimeconfig.dev.json
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\bin\Debug\net5.0\Scores.dll
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\bin\Debug\net5.0\ref\Scores.dll
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\bin\Debug\net5.0\Scores.pdb
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.csproj.AssemblyReference.cache
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.AssemblyInfoInputs.cache
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.AssemblyInfo.cs
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.csproj.CoreCompileInputs.cache
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.dll
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\ref\Scores.dll
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.pdb
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\Scores\Scores\obj\Debug\net5.0\Scores.genruntimeconfig.cache
