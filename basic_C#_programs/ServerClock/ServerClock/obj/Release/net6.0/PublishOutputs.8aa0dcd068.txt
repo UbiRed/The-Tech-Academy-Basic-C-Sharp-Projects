@@ -1,0 +1,7 @@
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\ServerClock\ServerClock\obj\Release\net6.0\PubTmp\Out\ServerClock.exe
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\ServerClock\ServerClock\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\ServerClock\ServerClock\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\ServerClock\ServerClock\obj\Release\net6.0\PubTmp\Out\ServerClock.dll
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\ServerClock\ServerClock\obj\Release\net6.0\PubTmp\Out\ServerClock.deps.json
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\ServerClock\ServerClock\obj\Release\net6.0\PubTmp\Out\ServerClock.runtimeconfig.json
+C:\Users\keato\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\basic_C#_programs\ServerClock\ServerClock\obj\Release\net6.0\PubTmp\Out\ServerClock.pdb
