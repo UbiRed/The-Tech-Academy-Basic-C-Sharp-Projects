@@ -23,3 +23,6 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+
+// to navigate to my server clock enter: localhost:port/Time
